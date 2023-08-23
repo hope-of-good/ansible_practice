@@ -1,0 +1,5 @@
+[master]
+172.31.47.130 ansible_host=master
+[nodes]
+172.31.32.104 ansible_host=node1
+172.31.41.154 ansible_host=node2

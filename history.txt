@@ -1,0 +1,77 @@
+    1  set-hostnamectl master.ansible
+    2  hostnamectl set master.ansible
+    3  hostnamectl set-hostname master.ansible
+    4  sudo hostnamectl set-hostname master.ansible
+    5  sudo apt-get update
+    6  sudo apt-get install ansible
+    7  cd ansible
+    8  ansible-doc module apt-get
+    9  ansible-doc module apt
+   10  vi installing_package.yml 
+   11  ansible-playbook installing_package.yml -C
+   12  vi installing_package.yml 
+   13  ansible-playbook installing_package.yml -C
+   14  vi installing_package.yml 
+   15  ansible-playbook installing_package.yml -C
+   16  vi installing_package.yml 
+   17  ansible-playbook installing_package.yml -C
+   18  ansible-playbook installing_package.yml
+   19  vi ansible.cfg 
+   20  ansible-playbook installing_package.yml
+   21  vi ansible.cfg 
+   22  ansible-playbook installing_package.yml
+   23  vi ansible.cfg 
+   24  history
+   25  vi installing_package.yml 
+   26  ansible-playbook installing_package.yml
+   27  vi installing_package.yml 
+   28  ansible-doc module apt
+   29  vi installing_package.yml
+   30  ansible-doc module apt
+   31  vi installing_package.yml
+   32  ansible-playbook installing_package.yml
+   33  vi installing_package.yml
+   34  ansible-playbook installing_package.yml
+   35  vi installing_package.yml
+   36  ansible-playbook installing_package.yml
+   37  vi installing_package.yml
+   38  ansible-playbook installing_package.yml
+   39  journalctl -xe apache2
+   40  journalctl -xe apache
+   41  journalctl -xe
+   42  sudo systemctl status apache2
+   43  cp installing_package.yml crontab.yml
+   44  vi crontab.yml 
+   45  vi crontab.yml -C
+   46  ansible-playbook crontab.yml -C
+   47* ansible-doc module cron
+   48  sudo systemctl status chronyd
+   49  vi crontab.yml -C
+   50  ansible-playbook crontab.yml -C
+   51  crontab -e
+   52  ansible-playbook crontab.yml
+   53  ls ../
+   54  vi ../abc.txt
+   55  cp crontab.yml useradd.yml
+   56  vi useradd.yml 
+   57  ansible-playbook useradd.yml -C
+   58  vi useradd.yml
+   59  ansible-playbook useradd.yml -C
+   60  sudo tail /etc/passwd
+   61  ansible-playbook useradd.yml
+   62  sudo tail /etc/passwd
+   63  sudo id
+   64  cp useradd.yml external_variable.yml
+   65  vi external_variable.yml
+   66  ansible-playbook external_variable.yml --syntax-check
+   67  vi external_variable.yml
+   68  ansible-playbook external_variable.yml --syntax-check
+   69  vi external_variable.yml
+   70  ansible-playbook external_variable.yml --syntax-check
+   71  ls
+   72  ansible-playbook external_variable.yml --syntax-check
+   73  ansible-playbook external_variable.yml --C
+   74  ansible-playbook external_variable.yml -C
+   75  ansible-playbook external_variable.yml
+   76  cd .. 
+   77  history >> history.txt
