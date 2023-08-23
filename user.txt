@@ -1,4 +1,0 @@
-username:
-  - sam
-  - tam
-  - gam

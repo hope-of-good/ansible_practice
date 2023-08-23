@@ -1,5 +1,0 @@
-package:
-  - nginx
-  - vim
-  - telnet
-  - snap
